@@ -1,0 +1,10 @@
+namespace: "namespace_name"
+description: "Hello world"
+name: "rmkcollection"
+version: "1.0.0"
+readme: "README.md"
+authors:
+    - "Rashed K"
+license:
+    - "MIT"
+repository: "https://github.com/rashed-k/rmk-galaxy-collection.git"

@@ -1,0 +1,4 @@
+---
+- name: Display a message
+  debug:
+    msg: "Hello from rmk_role_1 in my_collection!"
