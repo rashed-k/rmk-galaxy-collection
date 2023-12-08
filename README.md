@@ -1,1 +1,1 @@
-# rmk-galaxy-colection
+# rmk-galaxy-collection
