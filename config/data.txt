@@ -1,0 +1,25 @@
+name: Rashed Khan
+variables:
+    develop:
+    - name: SEARCH_URL
+      scope: GLOBAL
+      value: sdp3.elastic.sdp.vic.gov.au
+    - name: SEARCH_INDEX
+      value: elasticsearch_index_develop_node
+      scope: GLOBAL
+    - name: BAY_IMAGE_VERSION
+      value: 5.x
+      scope: GLOBAL
+    master:
+    - name: BAY_IMAGE_VERSION
+      scope: GLOBAL
+      value: 5.x
+    - name: CONTENT_API_SERVER
+      scope: GLOBAL
+      value: https://master.content.vic.gov.au/
+    - name: SEARCH_INDEX
+      scope: GLOBAL
+      value: elasticsearch_index_master_node
+    - name: SEARCH_LOG
+      value: error
+      scope: GLOBAL
